@@ -1,0 +1,22 @@
+[{
+    "title": "My first article",
+    "body": "Body for first article",
+    "authoredBy": {
+        "__related_node__": "dt"
+    },
+    "_key": "article1"
+}, {
+    "title": "My second article",
+    "body": "Body for second article",    
+    "authoredBy": {
+        "__related_node__": "dt"
+    },
+    "_key": "article2"
+}, {
+    "title": "My third article",
+    "body": "Body for third article",
+    "authoredBy": {
+        "__related_node__": "js"
+    },
+    "_key": "article3"
+}]

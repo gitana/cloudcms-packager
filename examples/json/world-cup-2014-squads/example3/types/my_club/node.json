@@ -1,0 +1,27 @@
+{
+    "title": "Club",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "country": {
+            "title": "Country",
+            "type": "string"
+        },
+        "athletes": {
+            "title": "Athletes",
+            "type": "array",
+            "items": {
+                "type": "object"
+            },
+            "_relator": {
+                "nodeType": "my:athlete"
+            }
+        }
+    },
+    "_qname": "my:club",
+    "_type": "d:type",
+    "_parent": "n:node"
+}

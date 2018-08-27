@@ -1,0 +1,13 @@
+[{
+    "title": "Daenerys Targaryen",
+    "firstName": "Daenerys",
+    "lastName": "Targaryen",
+    "_alias": "dt",
+    "_key": "author1"
+}, {
+    "title": "Jon Snow",
+    "firstName": "Jon",
+    "lastName": "Snow",
+    "_alias": "js",
+    "_key": "author2"
+}]

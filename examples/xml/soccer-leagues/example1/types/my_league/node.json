@@ -1,0 +1,21 @@
+{
+    "title": "League",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "code": {
+            "title": "Code",
+            "type": "string"
+        },
+        "country": {
+            "title": "Country",
+            "type": "string"
+        }
+    },
+    "_qname": "my:league",
+    "_type": "d:type",
+    "_parent": "n:node"
+}

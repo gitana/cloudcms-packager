@@ -1,0 +1,45 @@
+{
+    "title": "Athlete",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "Team": {
+            "title": "Team",
+            "type": "string"
+        },
+        "Number": {
+            "title": "Number",
+            "type": "string"
+        },
+        "Position": {
+            "title": "Position",
+            "type": "string"
+        },
+        "FullName": {
+            "title": "Full Name",
+            "type": "string"
+        },
+        "Club": {
+            "title": "Club",
+            "type": "string"
+        },
+        "ClubCountry": {
+            "title": "Club Country",
+            "type": "string"
+        },
+        "DateOfBirth": {
+            "title": "Date of Birth",
+            "type": "string"
+        },
+        "IsCaptain": {
+            "title": "Is Captain",
+            "type": "boolean"
+        }
+    },
+    "_qname": "my:athlete",
+    "_type": "d:type",
+    "_parent": "n:node"
+}

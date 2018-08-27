@@ -1,0 +1,20 @@
+{
+    "title": "Team",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "club": {
+            "title": "Club",
+            "type": "object",
+            "_relator": {
+                "nodeType": "my:club"
+            }
+        }
+    },
+    "_qname": "my:team",
+    "_type": "d:type",
+    "_parent": "n:node"
+}

@@ -1,0 +1,29 @@
+{
+    "title": "Athlete",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "number": {
+            "title": "Number",
+            "type": "string"
+        },
+        "position": {
+            "title": "Position",
+            "type": "string"
+        },
+        "dateOfBirth": {
+            "title": "Date of Birth",
+            "type": "string"
+        },
+        "isCaptain": {
+            "title": "Is Captain",
+            "type": "boolean"
+        }
+    },
+    "_qname": "my:athlete",
+    "_type": "d:type",
+    "_parent": "n:node"
+}

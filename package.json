@@ -1,0 +1,43 @@
+{
+  "author": {
+    "name": "Gitana Software, Inc.",
+    "email": "info@cloudcms.com",
+    "url": "https://www.cloudcms.com"
+  },
+  "name": "cloudcms-packager",
+  "description": "Cloud CMS Bulk Import Packager",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gitana/cloudcms-packager.git"
+  },
+  "dependencies": {
+    "archiver": "2.1.1",
+    "async": "1.5.2",
+    "extract-zip": "^1.6.6",
+    "gitana": "1.0.264",
+    "mime": "1.3.4",
+    "mkdirp": "0.5.1",
+    "request": "2.75.0",
+    "stringifystream": "1.0.5",
+    "sync-request": "^3.0.1",
+    "temp": "0.8.3",
+    "wrench": "1.5.9"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "keywords": [
+    "wcm",
+    "web",
+    "cloudcms",
+    "cms",
+    "content",
+    "json",
+    "rest",
+    "mobile",
+    "content management",
+    "javascript",
+    "nodejs"
+  ],
+  "main": "index"
+}

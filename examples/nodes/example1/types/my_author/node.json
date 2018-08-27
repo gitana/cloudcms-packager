@@ -1,0 +1,21 @@
+{
+    "title": "Author",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "firstName": {
+            "title": "First Name",
+            "type": "string"
+        },
+        "lastName": {
+            "title": "Last Name",
+            "type": "string"
+        }                
+    },
+    "_qname": "my:author",
+    "_type": "d:type",
+    "_parent": "n:node"
+}

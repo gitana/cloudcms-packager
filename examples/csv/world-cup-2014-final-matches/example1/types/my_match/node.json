@@ -1,0 +1,57 @@
+{
+    "title": "Match",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "match_num": {
+            "title": "Code",
+            "type": "string"
+        },
+        "round/group": {
+            "title": "Code",
+            "type": "string"
+        },
+        "date": {
+            "title": "Code",
+            "type": "string"
+        },
+        "time": {
+            "title": "Code",
+            "type": "string"
+        },
+        "stadium": {
+            "title": "Code",
+            "type": "string"
+        },
+        "where": {
+            "title": "Code",
+            "type": "string"
+        },
+        "home": {
+            "title": "Code",
+            "type": "string"
+        },
+        "score": {
+            "title": "Code",
+            "type": "string"
+        },
+        "away",
+        "home_scorers",
+        "away_scorers"
+
+        "code": {
+            "title": "Code",
+            "type": "string"
+        },
+        "country": {
+            "title": "Country",
+            "type": "string"
+        }
+    },
+    "_qname": "my:match",
+    "_type": "d:type",
+    "_parent": "n:node"
+}

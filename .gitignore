@@ -1,0 +1,9 @@
+.idea
+*.iml
+node_modules
+gitana.json
+**/gitana.json
+archives
+archives/**
+*.zip
+dist

@@ -1,0 +1,9 @@
+{
+    "name": "cloudcms-packager-sample",
+    "description": "Cloud Packager Sample",
+    "private": true,
+    "version": "0.0.1",
+    "dependencies": {
+        "cloudcms-packager": "*"
+    }
+}

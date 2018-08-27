@@ -1,0 +1,8 @@
+{
+    "title": "Authored By",
+    "type": "object",
+    "properties": {},
+    "_qname": "my:authored-by",
+    "_type": "d:association",
+    "_parent": "a:linked"
+}

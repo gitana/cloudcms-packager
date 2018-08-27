@@ -1,0 +1,25 @@
+{
+    "title": "Article",
+    "type": "object",
+    "properties": {
+        "title": {
+            "title": "Title",
+            "type": "string"
+        },
+        "body": {
+            "title": "Body",
+            "type": "string"
+        },
+        "authoredBy": {
+            "title": "Authored By",
+            "type": "object",
+            "_relator": {
+                "nodeType": "my:author",
+                "associationType": "my:authored-by"
+            }
+        }
+    },
+    "_qname": "my:article",
+    "_type": "d:type",
+    "_parent": "n:node"
+}
