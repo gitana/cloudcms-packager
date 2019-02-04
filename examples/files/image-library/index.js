@@ -16,13 +16,31 @@ PackagerFactory.create({
         return console.error(err);
     }
 
+    // Add Image content type
+    var contentTypeObject = {
+        "title": "Image",
+        "type": "object",
+        "properties": {
+            "title": {
+                "title": "Title",
+                "type": "string"
+            }
+        },
+        "_qname": "my:image",
+        "_type": "d:type",
+        "_parent": "n:node"
+    };
+
+    packager.addNode(contentTypeObject);
+
     var imageCount = 0;
     walk.walkSync("./images", function(basedir, filename, stat) {
 
         var alias = "image-" + (imageCount++);
         var obj = {
             "title": filename,
-            "_alias": alias
+            "_alias": alias,
+            "_type": "my:image"
         };
         packager.addNode(obj);
 
