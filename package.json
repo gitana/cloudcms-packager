@@ -6,11 +6,18 @@
   },
   "name": "cloudcms-packager",
   "description": "Cloud CMS Bulk Import Packager",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/gitana/cloudcms-packager.git"
   },
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
   "dependencies": {
     "archiver": "2.1.1",
     "async": "1.5.2",
