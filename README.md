@@ -2,7 +2,7 @@
 
 For information on the Cloud CMS Packager, please see:
 
-https://www.cloudcms.com/documentation/bulk-import.html
+https://gitana.io/documentation/gitana/4.0/engine/bulk-import.html
 
 Note that starting with version 1.1.0, the packager now supports Transfer Schema v3.
 This is compatible with Cloud CMS version 3.2.75 and beyond.
